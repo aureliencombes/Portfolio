@@ -8,97 +8,124 @@ body
     font-size: 2em;
     width: 100vw;
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
-.lineMain
+
+.menu
 {
-    background: black;
-    width: 0.3%;
-    height: 10%;
+    width: 70%;
+    height: 100%;
+    top: 0%;
+    left: 15%;
+    z-index: 0;
     position: relative;
-    z-index: 10;
-    top: 45%;
-    margin: 0 auto;
-    animation-name: line-animation;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
 
-.portfolio
-{
-    font-family: 'lobster';
-    font-size: 2em;
-    position: absolute;
-    z-index: 3;
-    top: 55%;
-    left: 42.5%;
-    transform-origin: 50% 100%;
-    animation-name: portfolio-animation;
-    animation-duration: 1s;
-    animation-delay: 0.3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
 }
+    .lineMain
+    {
+        background: black;
+        width: 0.3%;
+        height: 10%;
+        position: absolute;
+        z-index: 10;
+        top: 45.05%;
+        left: 50%;
+        animation-name: line-animation;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    .portfolio
+    {
+        font-family: 'lobster';
+        font-size: 5vw;
+        position: absolute;
+        z-index: 4;
+        top: 55%;
+        left: 40%;
+        transform-origin: 50% 100%;
+        animation-name: portfolio-animation;
+        animation-duration: 1s;
+        animation-delay: 0.3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    .bio
+    {
+        font-family: 'roboto thin';
+        text-decoration: none;
+        color: black;
+        font-size: 5vw;
+        position: absolute;
+        z-index: 2;
+        top: 37%;
+        left: 78.5%;
+        transform-origin: 50% 100%;
+        animation-name: bio-animation;
+        animation-duration: 1.5s;
+        animation-delay: 0.6s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    .works
+    {
+        font-family: 'roboto thin';
+        text-decoration: none;
+        color: black;
+        font-size: 5vw;
+        position: absolute;
+        z-index: 2;
+        top: 37%;
+        left: 12%;
+        transform-origin: 50% 100%;
+        animation-name: works-animation;
+        animation-duration: 1.5s;
+        animation-delay: 0.4s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    .cache1
+    {
+        background: white;
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        z-index: 3;
+        top: 0%;
+        
+    }
+    
+    
+    .cache2
+    {
+        background: white;
+        width: 30%;
+        height: 50%;
+        position: absolute;
+        top: 50%;
+        left: 35%;
+        z-index: 4;
+    }
 
-.bio
-{
-    font-family: 'roboto thin';
-    text-decoration: none;
-    color: black;
-    font-size: 2em;
-    position: absolute;
-    z-index: 1;
-    top: 37%;
-    left: 70%;
-    transform-origin: 50% 100%;
-    animation-name: bio-animation;
-    animation-duration: 1.5s;
-    animation-delay: 0.6s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
-.works
-{
-    font-family: 'roboto thin';
-    text-decoration: none;
-    color: black;
-    font-size: 2em;
-    position: absolute;
-    z-index: 1;
-    top: 37%;
-    left: 23.5%;
-    transform-origin: 50% 100%;
-    animation-name: works-animation;
-    animation-duration: 1.5s;
-    animation-delay: 0.4s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
-.cache1
-{
-    background: white;
-    width: 30%;
-    height: 20%;
-    position: relative;
-    z-index: 4;
-    top: 40.3%;
-    left: 35%;
-}
 
 
-.cache2
-{
-    background: white;
-    width: 53.3%;
-    height: 20%;
-    position: relative;
-    z-index: 2;
-    top: -0.3%;
-    left: 23.35%;
-}
+
+
+
+
+
+
+
+
+
+/**************************/
+/*       KEYFRAMES        */
+/**************************/
 
 @keyframes line-animation
 {
@@ -110,19 +137,17 @@ body
 @keyframes portfolio-animation
 {
     50% {transform: translateY(0%); opacity:1;}
-    100%{transform: translateY(-200%); opacity:1;}
+    100%{transform: translateY(-280%); opacity:1;}
 }
 
 @keyframes works-animation
 {
-    0%  {transform: translateY(0%); opacity:1;}
     50% {transform: translateY(0%); opacity:1;}
-    100%{transform: translateY(150%); opacity:1;}
+    100%{transform: translateY(15vh); opacity:1;}
 }
 
 @keyframes bio-animation
 {
-    0%  {transform: translateY(0%); opacity:1;}
     50% {transform: translateY(0%); opacity:1;}
-    100%{transform: translateY(150%); opacity:1;}
+    100%{transform: translateY(15vh); opacity:1;}
 }
