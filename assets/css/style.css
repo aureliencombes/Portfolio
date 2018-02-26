@@ -9,14 +9,14 @@ body
     width: 100vw;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
-    /* overflow: hidden; */
+    overflow: hidden
 }
 
 
 .menu
 {
-    width: 70%;
-    height: 100%;
+    width: 70vw;
+    height: 100vh;
     top: 0%;
     left: 15%;
     z-index: 0;
@@ -30,7 +30,7 @@ body
         height: 10%;
         position: absolute;
         z-index: 10;
-        top: 45.05%;
+        top: 45vh;
         left: 50%;
         animation-name: line-animation;
         animation-duration: 1s;
@@ -44,7 +44,7 @@ body
         font-size: 5vw;
         position: absolute;
         z-index: 4;
-        top: 55%;
+        top: 50%;
         left: 40%;
         transform-origin: 50% 100%;
         animation-name: portfolio-animation;
@@ -138,7 +138,7 @@ body
 @keyframes portfolio-animation
 {
     50% {transform: translateY(0%); opacity:1;}
-    100%{transform: translateY(-280%); opacity:1;}
+    100%{transform: translateY(-150%); opacity:1;}
 }
 
 @keyframes works-animation
