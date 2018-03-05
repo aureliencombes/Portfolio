@@ -9,7 +9,9 @@ body
     width: 100vw;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
-    overflow: hidden
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 
@@ -17,110 +19,181 @@ body
 {
     width: 70vw;
     height: 100vh;
-    top: 0%;
+    top: 0vh;
     left: 15%;
     z-index: 0;
     position: relative;
+    transition: 0.5s ease-in-out;
 
 }
-    .lineMain
-    {
-        background: black;
-        width: 0.3%;
-        height: 10%;
-        position: absolute;
-        z-index: 10;
-        top: 45vh;
-        left: 50%;
-        animation-name: line-animation;
-        animation-duration: 1s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-    }
+
+.menu.active
+{
+    transform: translateY(-30%)
+
+}
+
+        .menu .bar
+        {
+            background: black;
+            width: 0.3vw;
+            height: 10%;
+            position: absolute;
+            z-index: 10;
+            top: 45vh;
+            left: 50%;
+            transition: 0.3s ease-in-out;
+            animation-name: bar-animation;
+            animation-duration: 1s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
     
-    .portfolio
-    {
-        font-family: 'lobster';
-        font-size: 5vw;
-        position: absolute;
-        z-index: 4;
-        top: 50%;
-        left: 40%;
-        transform-origin: 50% 100%;
-        animation-name: portfolio-animation;
-        animation-duration: 1s;
-        animation-delay: 0.3s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-    }
+                .menu .bar.active
+                {
+                    top: 58vh;
+                }
     
-    .bio
-    {
-        font-family: 'roboto thin';
-        text-decoration: none;
-        color: black;
-        font-size: 5vw;
-        position: absolute;
-        z-index: 2;
-        top: 37%;
-        left: 78.5%;
-        transform-origin: 50% 100%;
-        animation-name: bio-animation;
-        animation-duration: 1.5s;
-        animation-delay: 0.6s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-    }
-    
-    .works
-    {
-        font-family: 'roboto thin';
-        text-decoration: none;
-        color: black;
-        font-size: 5vw;
-        position: absolute;
-        z-index: 2;
-        top: 37%;
-        left: 12%;
-        transform-origin: 50% 100%;
-        animation-name: works-animation;
-        animation-duration: 1.5s;
-        animation-delay: 0.4s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-    }
-    
-    .cache1
-    {
-        background: white;
-        width: 100%;
-        height: 50%;
-        position: absolute;
-        z-index: 3;
-        top: 0%;
+        .menu .portfolio
+        {
+            font-family: 'lobster';
+            font-size: 5vw;
+            position: absolute;
+            z-index: 4;
+            top: 50%;
+            left: 40%;
+            transform-origin: 50% 100%;
+            animation-name: portfolio-animation;
+            animation-duration: 1s;
+            animation-delay: 0.3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
         
-    }
+        .menu .bioButton
+        {
+            font-family: 'roboto thin';
+            text-decoration: none;
+            color: black;
+            font-size: 5vw;
+            position: absolute;
+            z-index: 2;
+            top: 37%;
+            left: 78.5%;
+            transform-origin: 50% 100%;
+            animation-name: tab-animation;
+            animation-duration: 1.5s;
+            animation-delay: 0.6s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        
+        .menu .worksButton
+        {
+            font-family: 'roboto thin';
+            text-decoration: none;
+            color: black;
+            font-size: 5vw;
+            position: absolute;
+            z-index: 2;
+            top: 37%;
+            left: 12%;
+            transform-origin: 50% 100%;
+            animation-name: tab-animation;
+            animation-duration: 1.5s;
+            animation-delay: 0.4s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        
+        .menu .cache1
+        {
+            background: white;
+            width: 100%;
+            height: 50%;
+            position: absolute;
+            z-index: 2;
+            top: 0%;
+            transition: 0.7s;
+            
+        }
+        
+        
+        .menu .cache2
+        {
+            background: white;
+            width: 30%;
+            height: 50%;
+            position: absolute;
+            top: 50%;
+            left: 35%;
+            z-index: 4;
+        }
     
     
-    .cache2
-    {
-        background: white;
-        width: 30%;
-        height: 50%;
-        position: absolute;
-        top: 50%;
-        left: 35%;
-        z-index: 4;
-    }
+        .menu .bioText
+        {
+            position: absolute;
+            top: 0%;
+            left: 11%;
+            width: 55vw;
+            transition: 0.5s ease-in-out 0.2s;
+        }
+    
+                .menu .bioText.active
+                {
+                    transform: translateY(70vh);
+                
+                }
+            
+                .menu .bioText p
+                {
+                    font-family: 'roboto thin';
+                    font-size: 2.5vw;
+                    text-align: justify;
+                    width: 68%;
+                    display: inline-block;
+                }
+            
+            
+                .menu .bioText img
+                {
+                    position: absolute;
+                    top: 0%;
+                    right: 0%;
+                    width: 30%;
+                }
 
+        .menu .gallery
+        {
+            position: absolute;
+            top: 0%;
+            left: 11%;
+            height: 50%;
+            width: 55vw;;
+            transition: 0.5s ease-in-out 0.2s;
+            overflow: auto;
+            font-size: 0;
+        }
 
+            .menu .gallery .placeholder
+            {
+                background: rgb(228, 228, 228);
+                display: inline-block;
+                margin: 3% 0% 0% 0%;
+                width: 17vw;
+                height: 25vw;
+            }
 
+            .menu .gallery .placeholder.index-2{margin: 3% 3.5% 0% 3.5%;}
+            .menu .gallery .placeholder.index-5{margin: 3% 3.5% 0% 3.5%;}
+            .menu .gallery .placeholder.index-8{margin: 3% 3.5% 0% 3.5%;}
 
-
-
-
-
-
+        .menu .gallery.active
+        {
+            transform: translateY(63vh)
+        }
+        
 
 
 
@@ -128,7 +201,7 @@ body
 /*       KEYFRAMES        */
 /**************************/
 
-@keyframes line-animation
+@keyframes bar-animation
 {
     0%  {transform: rotateZ(0deg) scaleY(1);}
     50% {transform: rotateZ(90deg) scaleY(1);}
@@ -141,14 +214,9 @@ body
     100%{transform: translateY(-150%); opacity:1;}
 }
 
-@keyframes works-animation
+@keyframes tab-animation
 {
-    50% {transform: translateY(0%); opacity:1;}
-    100%{transform: translateY(15vh); opacity:1;}
-}
-
-@keyframes bio-animation
-{
-    50% {transform: translateY(0%); opacity:1;}
-    100%{transform: translateY(15vh); opacity:1;}
+    50% {transform: translateY(0%); opacity:1; z-index: 2;}
+    99%{transform: translateY(15vh); opacity:1; z-index: 2;}
+    100%{transform: translateY(15vh); opacity:1; z-index: 3;}
 }
