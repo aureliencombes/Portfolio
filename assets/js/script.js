@@ -13,7 +13,7 @@ const works = worksButton.addEventListener('click', () => {
     menu.classList.add('active')
     bar.classList.add('active')
 
-    cache1.style.transform = "translateY(26%)"
+    cache1.classList.add('active')
     cache2.style.display = "none"
 
     bioText.classList.remove('active')
@@ -29,7 +29,7 @@ const bio = bioButton.addEventListener('click', () => {
     menu.classList.add('active')
     bar.classList.add('active')
 
-    cache1.style.transform = "translateY(26%)"
+    cache1.classList.add('active')
     cache2.style.display = "none"
 
     worksGallery.classList.remove('active')
