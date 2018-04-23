@@ -269,8 +269,9 @@ p a
         top: 60%;
     }
 
-    .menu .bioText img {
-        width: 27%;
+    .menu .bioText img 
+    {
+        width: 26%;
     }
 
     .menu .bioText.active 
