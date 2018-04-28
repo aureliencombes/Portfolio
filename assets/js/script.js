@@ -14,7 +14,7 @@ const bioText = document.querySelector('.bioText')
 const worksGallery = document.querySelector('.gallery')
 
 const projectSelected = []
-const blackScreen = document.querySelector('.blackScreen')
+const blackScreen = document.querySelector('.preview')
 const projectImage = document.querySelector('.previewImage')
 const projectTitle = document.querySelector('.previewTitle')
 const projectText = document.querySelector('.previewText')

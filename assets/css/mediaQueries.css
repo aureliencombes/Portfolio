@@ -37,6 +37,29 @@
     {
         transform: translateY(79vh);
     }
+
+    .preview .previewImage {
+        width: 80%;
+        height: 30%;
+        margin: 25% 10% 0%;
+        background-position: top;
+    }
+
+    .preview .description {
+        width: 100%;
+        margin: 2% 0;
+    }
+
+    .preview .description .previewTitle {
+        font-size: 1em;
+        margin: 0% 10%;
+    }
+
+    .preview .description .previewText {
+        width: 80%;
+        margin: 10% 10%;
+        font-size: 0.7em;
+    }
 }
 
 @media only screen and (min-width: 600px)
@@ -80,6 +103,32 @@
     .menu .gallery .placeholder.index-2,.menu .gallery .placeholder.index-5,.menu .gallery .placeholder.index-8 {
         margin: 1% 1.5% 0% 1.5%;
     }
+
+    .preview .previewImage
+    {
+        width: 30%;
+        height: 90%;
+        margin: 3%;
+        background-position: center;
+    }
+
+    .preview .description
+    {
+        width: 50%;
+        margin: 3% 0%;
+    }
+        .preview .description .previewTitle
+        {
+            font-size: 1em;
+            margin: 0% 10%;
+        }
+
+        .preview .description .previewText
+        {
+            width: 80%;
+            margin: 10% 10%;
+            font-size: 0.7em;
+        }
 }
 
 @media only screen and (min-width: 768px) 
@@ -116,6 +165,29 @@
     .menu .cache1.active 
     {
         transform: translateY(24%);
+    }
+
+    .preview .previewImage {
+        width: 80%;
+        height: 30%;
+        margin: 25% 10% 0%;
+        background-position: top;
+    }
+
+    .preview .description {
+        width: 100%;
+        margin: 2% 0;
+    }
+
+    .preview .description .previewTitle {
+        font-size: 1.5em;
+        margin: 0% 10%;
+    }
+
+    .preview .description .previewText {
+        width: 80%;
+        margin: 10% 10%;
+        font-size: 1em;
     }
 }
     
@@ -169,6 +241,33 @@
     {
         transform: translateY(21%);
     }  
+
+    
+    .preview .previewImage
+    {
+        width: 40%;
+        height: 80%;
+        margin: 10% 5%;
+        background-position: center;
+    }
+
+    .preview .description
+    {
+        width: 45%;
+        margin: 10% 0%;
+    }
+        .preview .description .previewTitle
+        {
+            font-size: 1.5em;
+            margin: 0% 10%;
+        }
+
+        .preview .description .previewText
+        {
+            width: 80%;
+            margin: 10% 10%;
+            font-size: 1em;
+        }
 }
 
 @media (min-width: 1280px)
@@ -260,6 +359,32 @@
     {
         margin: 1% 0.5% 0% 0.5%;
     }
+
+    .preview .previewImage
+    {
+        width: 28%;
+        height: 92%;
+        margin: 2%;
+        background-position: center;
+    }
+
+    .preview .description
+    {
+        width: 60%;
+        margin: 2% 0;
+    }
+        .preview .description .previewTitle
+        {
+            font-size: 2em;
+            margin: 0% 10%;
+        }
+
+        .preview .description .previewText
+        {
+            width: 80%;
+            margin: 10% 10%;
+            font-size: 1em;
+        }
 }
 
 @media only screen and (min-width: 1440px)
@@ -313,4 +438,30 @@
     .menu .gallery.active {
         transform: translateY(76vh);
     }
+
+    .preview .previewImage
+    {
+        width: 29%;
+        height: 90%;
+        margin: 2%;
+        background-position: center;
+    }
+
+    .preview .description
+    {
+        width: 60%;
+        margin: 2% 0;
+    }
+        .preview .description .previewTitle
+        {
+            font-size: 2em;
+            margin: 0% 10%;
+        }
+
+        .preview .description .previewText
+        {
+            width: 80%;
+            margin: 10% 10%;
+            font-size: 1em;
+        }
 }
