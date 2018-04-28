@@ -162,9 +162,9 @@ p a
         .menu .gallery
         {
             position: absolute;
-            top: 0%;
+            top: -10%;
             left: 11%;
-            height: 50%;
+            height: 60%;
             width: 55vw;;
             transition: 0.5s ease-in-out;
             overflow: auto;
@@ -216,7 +216,96 @@ p a
         {
             transform: translateY(63vh)
         }
+
+
+
+
+.blackScreen
+{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: none;
+    transition: 0.5s ease-in-out;
+}
+
+    .blackScreen .close
+    {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        cursor: pointer;
+        transform-origin: center;
+        transition: 0.3s ease-out;
+    }
+
+    .blackScreen .close:hover
+    {
+        transform: rotate(90deg);
+    }
+    
+        .blackScreen .close .cross1
+        {
+            height: 30px;
+            width: 7px;
+            background: white;
+            transform: translate(10px, 0px) rotate(45deg);            
+        }
+
+        .blackScreen .close .cross2
+        {
+            height: 30px;
+            width: 7px;
+            background: white;
+            transform: translate(10px, -30px) rotate(-45deg);
+        }
         
+    .blackScreen .previewImage
+    {
+        width: 29%;
+        height: 90%;
+        background: white;
+        display: inline-block;
+        margin: 2%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .blackScreen .description
+    {
+        display: inline-block;
+        width: 60%;
+        vertical-align: top;
+        margin: 2% 0;
+    }
+        .blackScreen .description .previewTitle
+        {
+            font-size: 2em;
+            color: white;
+            margin: 0% 10%;
+        }
+
+        .blackScreen .description .previewText
+        {
+            color: ghostwhite;
+            width: 80%;
+            margin: 10% 10%;
+        }
+
+        .blackScreen .description .previewLink
+        {
+            margin: 0% 10%;
+            padding: 1% 5%;
+            color: black;
+            text-decoration: none;
+            background: white
+        }
+
 
 
 
@@ -242,283 +331,4 @@ p a
     50% {transform: translateY(0%); opacity:1; z-index: 2;}
     99%{transform: translateY(15vh); opacity:1; z-index: 2;}
     100%{transform: translateY(15vh); opacity:1; z-index: 3;}
-}
-
-
-
-/**************************/
-/*       KEYFRAMES        */
-/**************************/
-
-@media (min-width: 320px)
-{
-    .menu .portfolio
-    {
-        top: 65%; 
-    }
-
-    .menu .bar 
-    {
-        height: 5.4vw;
-        top: 48.5%;
-        left: 50%;
-    }
-
-    .menu .bar.active
-    {
-        top: 60%;
-    }
-
-    .menu .bioText img 
-    {
-        width: 26%;
-    }
-
-    .menu .bioText.active 
-    {
-        transform: translateY(80vh);
-    }
-
-    .menu .cache1.active 
-    {
-        transform: translateY(23%);
-    }
-
-    .menu .gallery.active
-    {
-        transform: translateY(69.5vh);
-    }
-}
-
-@media only screen and (min-width: 600px)
-{
-    .menu .portfolio
-    {
-        top: 55%; 
-    }
-
-    .menu .bar 
-    {
-        height: 9.5%;
-        top: 45%;
-        left: 50%;
-    }
-
-    .menu .bar.active
-    {
-        top: 58%;
-    }
-
-    .menu .gallery {
-        position: absolute;
-        top: 0%;
-        left: 12%;
-        height: 50%;
-        width: 53.5vw;
-        transition: 0.5s ease-in-out;
-        overflow: auto;
-        font-size: 0;
-    }
-
-    .menu .gallery .placeholder.index-2,.menu .gallery .placeholder.index-5,.menu .gallery .placeholder.index-8 {
-        margin: 1% 1.5% 0% 1.5%;
-    }
-}
-
-@media only screen and (min-width: 768px) 
-{
-    .menu .portfolio
-    {
-        top: 62%; 
-    }
-
-    .menu .bar 
-    {
-        height: 4%;
-        top: 48%;
-        left: 50%;
-    }
-
-    .menu .bar.active
-    {
-        top: 60%;
-    }
-
-    .menu .bioText.active
-    {
-        transform: translateY(78.5vh);
-    }
-
-    .menu .cache1.active 
-    {
-        transform: translateY(24%);
-    }
-}
-    
-@media (min-width: 1024px)
-{
-    .menu .portfolio
-    {
-        top: 55%; 
-    }
-
-    .menu .bar 
-    {
-        height: 7.1%;
-        top: 46.5%;
-        left: 50%;
-    }
-
-    .menu .bar.active
-    {
-        top: 57%;
-    }
-
-    .menu .bioText
-    {
-        top: 0%;
-        left: 12%;
-        width: 53vw;
-    }
-
-    .menu .gallery.active
-    {
-        transform: translateY(60.5vh);
-    }
-
-    .menu .bioText.active
-    {
-        transform: translateY(62vh);
-    }
-
-    .menu .gallery .placeholder.index-2, .menu .gallery .placeholder.index-5, .menu .gallery .placeholder.index-8
-    {
-        margin: 1% 1% 0% 1%;
-    }
-
-    .menu .cache1.active 
-    {
-        transform: translateY(21%);
-    }  
-}
-
-@media (min-width: 1280px)
-{
-    .menu .bar 
-    {
-        height: 9.5%;
-        top: 45%;
-        left: 50%;
-    }
-
-    .menu .bar.active 
-    {
-        top: 59%;
-    }
-
-    .menu .bioText 
-    {
-        top: -10%;
-        left: 12%;
-        width: 53.3vw;
-    }
-
-    .menu .bioText.active 
-    {
-        transform: translateY(75vh);
-    }
-
-    .menu .gallery.active 
-    {
-        transform: translateY(63.5vh);
-    }
-
-    .menu .cache1.active 
-    {
-        transform: translateY(28%);
-    }
-
-}
-
-@media (min-width: 1360px)
-{
-    .menu .bar 
-    {
-        height: 5.3vw;
-        top: 45%;
-        left: 50%;
-    }
-
-    .menu .bar.active 
-    {
-        top: 58.5%;
-    }
-
-    .menu .gallery.active
-    {
-        transform: translateY(63vh);
-    }
-
-    .menu .bioText 
-    {
-        top: -60%;
-        left: 12%;
-        width: 53.3vw;
-    }
-
-    .menu .bioText.active {
-        transform: translateY(125vh);
-    }
-
-    .menu .cache1.active 
-    {
-        transform: translateY(28%);
-    }
-
-    .menu .portfolio 
-    {
-        top: 53%;
-    }
-}
-
-@media (min-width: 1440px)
-{
-    .menu .bar 
-    {
-        height: 11%;
-        top: 45%;
-        left: 50%;
-    }
-
-    .menu .bar.active 
-    {
-        top: 60.5%;
-    }
-
-    élément {
-        transform: translateY(32%);
-    }
-
-    
-    .menu .bioText 
-    {
-        top: -15%;
-        left: 12%;
-        width: 53.3vw;
-    }
-    
-    .menu .bioText.active
-    {
-        transform: translateY(83vh);
-    }
-
-    .menu .portfolio 
-    {
-        top: 53%;
-    }
-
-    .menu .cache1.active
-    {
-        transform :translateY(32%);
-    }
 }

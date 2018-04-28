@@ -1,0 +1,316 @@
+
+@media (min-width: 320px)
+{
+    .menu .portfolio
+    {
+        top: 65%; 
+    }
+
+    .menu .bar 
+    {
+        height: 5.4vw;
+        top: 48.5%;
+        left: 50%;
+    }
+
+    .menu .bar.active
+    {
+        top: 60%;
+    }
+
+    .menu .bioText img 
+    {
+        width: 26%;
+    }
+
+    .menu .bioText.active 
+    {
+        transform: translateY(80vh);
+    }
+
+    .menu .cache1.active 
+    {
+        transform: translateY(23%);
+    }
+
+    .menu .gallery.active
+    {
+        transform: translateY(79vh);
+    }
+}
+
+@media only screen and (min-width: 600px)
+{
+    .menu .portfolio
+    {
+        top: 55%; 
+    }
+
+    .menu .bar 
+    {
+        height: 9.5%;
+        top: 45%;
+        left: 50%;
+    }
+
+    .menu .bar.active
+    {
+        top: 58%;
+    }
+
+    .menu .cache1.active {
+
+        transform: translateY(25%);
+    
+    }
+
+    .menu .gallery {
+        top: -10%;
+        left: 12%;
+        width: 53.5vw;
+    }
+
+    .menu .gallery.active
+    {
+
+        transform: translateY(73vh);
+    
+    }
+
+    .menu .gallery .placeholder.index-2,.menu .gallery .placeholder.index-5,.menu .gallery .placeholder.index-8 {
+        margin: 1% 1.5% 0% 1.5%;
+    }
+}
+
+@media only screen and (min-width: 768px) 
+{
+    .menu .portfolio
+    {
+        top: 62%; 
+    }
+
+    .menu .bar 
+    {
+        height: 4%;
+        top: 48%;
+        left: 50%;
+    }
+
+    .menu .bar.active
+    {
+        top: 60%;
+    }
+
+    .menu .gallery.active 
+    {
+
+        transform: translateY(78vh);
+    
+    }
+
+    .menu .bioText.active
+    {
+        transform: translateY(78.5vh);
+    }
+
+    .menu .cache1.active 
+    {
+        transform: translateY(24%);
+    }
+}
+    
+@media (min-width: 1024px)
+{
+    .menu .portfolio
+    {
+        top: 55%; 
+    }
+
+    .menu .bar 
+    {
+        height: 7.1%;
+        top: 46.5%;
+        left: 50%;
+    }
+
+    .menu .bar.active
+    {
+        top: 57%;
+    }
+
+    .menu .bioText
+    {
+        top: 0%;
+        left: 12%;
+        width: 53vw;
+    }
+
+    .menu .gallery
+    {
+        top: -10%;
+    }
+
+    .menu .gallery.active
+    {
+        transform: translateY(70.5vh);
+    }
+
+    .menu .bioText.active
+    {
+        transform: translateY(62vh);
+    }
+
+    .menu .gallery .placeholder.index-2, .menu .gallery .placeholder.index-5, .menu .gallery .placeholder.index-8
+    {
+        margin: 1% 1% 0% 1%;
+    }
+
+    .menu .cache1.active 
+    {
+        transform: translateY(21%);
+    }  
+}
+
+@media (min-width: 1280px)
+{
+    .menu .bar 
+    {
+        height: 9.5%;
+        top: 45%;
+        left: 50%;
+    }
+
+    .menu .bar.active 
+    {
+        top: 59%;
+    }
+
+    .menu .bioText 
+    {
+        top: -10%;
+        left: 12%;
+        width: 53.3vw;
+    }
+
+    .menu .bioText.active 
+    {
+        transform: translateY(75vh);
+    }
+
+    .menu .gallery.active 
+    {
+        transform: translateY(74vh);
+    }
+
+    .menu .cache1.active 
+    {
+        transform: translateY(28%);
+    }
+
+}
+
+@media (min-width: 1360px)
+{
+    .menu .bar 
+    {
+        height: 5.3vw;
+        top: 44%;
+        left: 50%;
+    }
+
+    .menu .bar.active 
+    {
+        top: 59.5%;
+    }
+
+    .menu .gallery {
+        top: -10%;
+        left: 12.3%;
+        width: 53vw;
+    }
+
+    .menu .gallery.active
+    {
+        transform: translateY(75vh);
+    }
+
+
+    .menu .bioText 
+    {
+        top: -60%;
+        left: 12%;
+        width: 53.3vw;
+    }
+
+    .menu .bioText.active {
+        transform: translateY(125vh);
+    }
+
+    .menu .cache1.active 
+    {
+        transform: translateY(31%);
+    }
+
+    .menu .portfolio 
+    {
+        top: 52%;
+    }
+
+    .menu .gallery .placeholder.index-2, .menu .gallery .placeholder.index-5, .menu .gallery .placeholder.index-8 
+    {
+        margin: 1% 0.5% 0% 0.5%;
+    }
+}
+
+@media only screen and (min-width: 1440px)
+{
+    .menu .bar 
+    {
+        height: 10.9%;
+        top: 45%;
+        left: 50%;
+    }
+
+    .menu .bar.active 
+    {
+        top: 60.5%;
+    }
+
+    élément {
+        transform: translateY(32%);
+    }
+
+    
+    .menu .bioText 
+    {
+        top: -15%;
+        left: 12%;
+        width: 53.3vw;
+    }
+    
+    .menu .bioText.active
+    {
+        transform: translateY(83vh);
+    }
+
+    .menu .portfolio 
+    {
+        top: 53%;
+    }
+
+    .menu .cache1.active
+    {
+        transform :translateY(32%);
+    }
+
+    .menu .gallery {
+        position: absolute;
+        top: -10%;
+        left: 12%;
+        width: 53.5vw;
+    }
+
+    .menu .gallery.active {
+        transform: translateY(76vh);
+    }
+}
