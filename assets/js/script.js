@@ -17,6 +17,7 @@ const projectSelected = []
 const blackScreen = document.querySelector('.preview')
 const projectImage = document.querySelector('.previewImage')
 const projectTitle = document.querySelector('.previewTitle')
+const projectStatus = document.querySelector('.previewStatus')
 const projectText = document.querySelector('.previewText')
 const projectLink = document.querySelector('.previewLink')
 
@@ -72,6 +73,7 @@ const projectSelection = () =>
             projectImage.style.backgroundImage = project[i].image
             projectTitle.innerHTML = project[i].title
             projectText.innerHTML = project[i].text
+            projectStatus.innerHTML = project[i].status
             projectLink.innerHTML = project[i].linkText
             projectLink.href = project[i].link
         })

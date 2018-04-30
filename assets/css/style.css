@@ -290,6 +290,13 @@ p a
             margin: 0% 10%;
         }
 
+        .preview .description .previewStatus
+        {
+            font-size: 0.5em;
+            color: rgb(173, 173, 173);
+            margin: 10% 10%;
+        }
+
         .preview .description .previewText
         {
             color: ghostwhite;
