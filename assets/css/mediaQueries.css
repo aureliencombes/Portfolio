@@ -1,6 +1,13 @@
-
-@media (min-width: 320px)
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait)
 {
+
+    .name
+{
+    font-size: 0.3em;
+}
     .menu .portfolio
     {
         top: 65%; 
@@ -36,6 +43,83 @@
     .menu .gallery.active
     {
         transform: translateY(79vh);
+    }
+
+    .preview .previewImage {
+        width: 80%;
+        height: 30%;
+        margin: 25% 10% 0%;
+        background-position: top;
+    }
+
+    .preview .description {
+        width: 100%;
+        margin: 2% 0;
+    }
+
+    .preview .description .previewTitle {
+        font-size: 1em;
+        margin: 0% 10%;
+    }
+
+    .preview .description .previewText {
+        width: 80%;
+        margin: 10% 10%;
+        font-size: 0.7em;
+    }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape)
+{
+    .menu .portfolio
+    {
+        top: 55%; 
+    }
+
+    .menu .bar 
+    {
+        height: 5.3vw;
+        top: 45%;
+        left: 50%;
+    }
+
+    .menu .bar.active
+    {
+        top: 60%;
+    }
+
+    .menu .bioText img 
+    {
+        width: 26%;
+    }
+
+    .menu .bioText.active 
+    {
+        transform: translateY(80vh);
+    }
+
+    .menu .cache1.active 
+    {
+        transform: translateY(30%);
+    }
+
+    .menu .gallery {
+        top: -10%;
+        left: 12%;
+        height: 60%;
+        width: 53vw;
+    }
+
+    .menu .gallery.active
+    {
+        transform: translateY(75vh);
+    }
+
+    .menu .gallery .placeholder.index-2,.menu .gallery .placeholder.index-5,.menu .gallery .placeholder.index-8 {
+        margin: 1% 1.5% 0% 1.5%;
     }
 
     .preview .previewImage {

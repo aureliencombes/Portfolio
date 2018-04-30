@@ -11,7 +11,7 @@ body
     height: 100vh;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 p a
@@ -21,6 +21,15 @@ p a
     font-weight: 100;
 }
 
+.name
+{
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    color: rgb(228, 228, 228);
+    font-size: 1em;
+    font-family: 'Seaweed Script';
+}
 
 .menu
 {
