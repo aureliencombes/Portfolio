@@ -24,13 +24,13 @@ p a
 
 .menu
 {
-    width: 70%;
+    width: 70vw;
     height: 100vh;
     top: 0vh;
-    left: 15%;
     z-index: 0;
     position: relative;
     transition: 0.2s ease-in-out;
+    margin: 0 auto;
 
 }
 

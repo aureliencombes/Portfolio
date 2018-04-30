@@ -71,7 +71,7 @@
 
     .menu .bar 
     {
-        height: 9.5%;
+        height: 5.4vw;
         top: 45%;
         left: 50%;
     }
@@ -140,7 +140,7 @@
 
     .menu .bar 
     {
-        height: 4%;
+        height: 5.3vw;
         top: 48%;
         left: 50%;
     }
@@ -200,7 +200,7 @@
 
     .menu .bar 
     {
-        height: 7.1%;
+        height: 5.3vw;
         top: 46.5%;
         left: 50%;
     }
@@ -274,7 +274,7 @@
 {
     .menu .bar 
     {
-        height: 9.5%;
+        height: 5.35vw;
         top: 45%;
         left: 50%;
     }
@@ -304,6 +304,18 @@
     .menu .cache1.active 
     {
         transform: translateY(28%);
+    }
+
+    .preview .previewImage {
+        width: 28%;
+        height: 80%;
+        margin: 7% 7%;
+        background-position: center;
+    }
+
+    .preview .description {
+        width: 45%;
+        margin: 7% 0%;
     }
 
 }
@@ -391,7 +403,7 @@
 {
     .menu .bar 
     {
-        height: 10.9%;
+        height: 5.3vw;
         top: 45%;
         left: 50%;
     }

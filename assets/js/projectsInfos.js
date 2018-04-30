@@ -4,7 +4,7 @@ const project = []
         image : 'url("assets/img/project/spaceXproject.jpg")',
         title : 'Space X School Project',
         text : 'This project has been made for a school test, where we had five days to make an experience about spaceX.',
-        linkText : 'test it',
+        linkText : 'test',
         link : 'https://aureliencombes.github.io/SpaceX/',
         };
 
@@ -12,7 +12,7 @@ const project = []
         image : 'url("assets/img/project/inrocks_index.jpg")',
         title : 'inrocks School Project',
         text : 'Made for a school team project where we had to make a redesign of the website "les Inrockuptible Festival 2017."',
-        linkText : 'show',
+        linkText : 'discover',
         link : 'assets/img/project/inrocks_index.jpg',
         },
 
@@ -28,7 +28,7 @@ const project = []
         image : 'url("assets/img/project/nikeHyperadapt.jpg")',
         title : 'Nike Poster',
         text : 'Pub poster for the Nike Hyper-Adapt.',
-        linkText : 'show',
+        linkText : 'discover',
         link : 'assets/img/project/nikeHyperadapt.jpg',
         };
 
@@ -36,7 +36,7 @@ const project = []
         image : 'url("assets/img/project/nikitaPoster.jpg")',
         title : "Film poster in Olly Moss's style",
         text : "A redesign of Nikita film poster with a double meaning like Olly Moss's works.",
-        linkText : 'show',
+        linkText : 'discover',
         link : 'assets/img/project/nikitaPoster.jpg',
         };
 
@@ -44,7 +44,7 @@ const project = []
         image : 'url("assets/img/project/Portrait.jpg")',
         title : 'Auto portrait',
         text : "Inspired by Roy Lichtenstein's works and mixed up with old VHS style. made with Illustrator / Photoshop.",
-        linkText : 'show',
+        linkText : 'discover',
         link : 'assets/img/project/Portrait.jpg',
         };
 
@@ -52,7 +52,7 @@ const project = []
         image : 'url("assets/img/project/smk.jpg")',
         title : 'Portait of a friend',
         text : 'digital painting on Photoshop.',
-        linkText : 'show',
+        linkText : 'discover',
         link : 'assets/img/project/smk.jpg',
         };
 
