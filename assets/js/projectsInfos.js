@@ -4,7 +4,7 @@ const project = []
         image : 'url("assets/img/project/spaceXproject.jpg")',
         title : 'Space X School Project',
         text : 'This project has been made for a school test, where we had five days to make an experience about spaceX.',
-        linkText : 'test',
+        linkText : 'test it',
         link : 'https://aureliencombes.github.io/SpaceX/',
         };
 
@@ -21,7 +21,7 @@ const project = []
         title : 'professionnal school project',
         text : 'Made for a school team project for a real client.',
         linkText : 'discover',
-        link : 'www.alainalaric.ovh',
+        link : 'http://www.alainalaric.ovh',
         };
 
     project[4] = {
